@@ -1,0 +1,17 @@
+{
+  "main": "app.ts",
+  "scripts": {
+    "dev": "tsx watch app.ts",
+    "start": "tsx app.ts"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
